@@ -1,0 +1,85 @@
+<<<<<<< HEAD
+[{
+=======
+{
+>>>>>>> 35f7e50960bf21b2a5eee2b504e028792ca38cbd
+  "_id": {
+    "$oid": "647a8efce24dbe8454afdff7"
+  },
+  "headers": {
+    "Accept": "application/json",
+    "X-API-Token": "2d2abfa753ead23b0e91c1b90eb3c671520c7bee"
+  },
+  "invalid": {
+    "Accept": "application/json",
+    "X-API-Token": "2d2abfa753ead23b0e91c1b90eb3c671520c7"
+  },
+  "prueba_1": {
+    "expected": "hpacio@unicesar.edu.co"
+  },
+  "prueba_2": {
+    "expected": "Unauthorized"
+  },
+  "prueba_3": {
+    "expected": "Unauthorized"
+  },
+  "prueba_4": {
+    "payload": {
+      "udid": "2",
+      "model": "Heriberto",
+      "os_build": "string",
+      "os_version": "string",
+      "serial": "string",
+      "imei": "string",
+      "owner_id": "string"
+    },
+    "expected": "Heriberto"
+  },
+  "prueba_5": {
+    "payload": {},
+    "expected": "Missing required body parameter \"body\""
+  },
+  "prueba_6": {
+    "payload": {
+      "udid": "2",
+      "model": "Heriberto",
+      "os_build": "string",
+      "os_version": "string",
+      "serial": "string",
+      "imei": "string",
+      "owner_id": "string"
+    },
+    "expected": "The authenticated user is not allowed to register a device for a different user."
+  },
+  "prueba_7": {
+    "expected": "2"
+  },
+  "prueba_8": {
+    "expected": "Unauthorized"
+  },
+  "prueba_9": {
+    "expected": 401
+  },
+  "prueba_10": {
+    "expected": "Heriberto"
+  },
+  "prueba_11": {
+    "expected": "Unauthorized"
+  },
+  "prueba_12": {
+    "expected": "not_found"
+  },
+  "prueba_13": {
+    "expected": 200
+  },
+  "prueba_14": {
+    "expected": "Unauthorized"
+  },
+  "prueba_15": {
+    "expected": "not_found"
+  }
+<<<<<<< HEAD
+}]
+=======
+}
+>>>>>>> 35f7e50960bf21b2a5eee2b504e028792ca38cbd
