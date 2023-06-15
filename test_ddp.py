@@ -140,7 +140,15 @@ def test_usuario_no_existente():
 
     expected = collection.find_one()["prueba_12"]["expected"]
     assert data["code"] == expected
+    
+##TEST_13
+def test_eliminar_dispositivo():
+    url = f"https://api.appcenter.ms/v0.1/user/devices/1"
+    response = requests.delete(url, headers=headers)
+    data = response.json()
+    expected = collection.find_one()["prueba_13"]["expected"]
 
+    assert data == expected
 
 ##TEST_14
 def test_eliminar_disp_token_invalido():
